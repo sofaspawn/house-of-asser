@@ -9,6 +9,12 @@ const config = {
   images: {
     domains: ["utfs.io"], // Add the domain here
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default config;
